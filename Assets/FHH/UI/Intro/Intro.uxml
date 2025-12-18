@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/FHH/UI/Intro/Intro.uss?fileID=7433441132597879392&amp;guid=ec6ff56b6351c2040b09af404dcd1146&amp;type=3#Intro" />
+    <ui:VisualElement name="Background" style="width: 100%; height: 100%; background-color: rgb(70, 70, 70); align-items: center; justify-content: center; align-self: center; align-content: center; flex-grow: 1;">
+        <ui:VisualElement name="Logo" style="background-image: url(&quot;project://database/Assets/FHH/AppResources/Icons/HH_RGB_positiv_square.png?fileID=21300000&amp;guid=4ebb9f090fc407047a363ceb1cd56d36&amp;type=3#HH_RGB_positiv_square&quot;); background-color: rgba(255, 255, 255, 0); width: 40%; height: 40%; -unity-background-scale-mode: scale-to-fit; opacity: 0;" />
+    </ui:VisualElement>
+</ui:UXML>

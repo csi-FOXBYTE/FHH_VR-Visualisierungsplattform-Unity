@@ -1,0 +1,252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: General Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: General
+  m_TableCollectionNameGuidString: 401d602d9c1a0514d85d9fb06d348526
+  m_Entries:
+  - m_Id: 54575742976
+    m_Key: MenuBar_Placeholder1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58761658368
+    m_Key: MenuBar_Placeholder2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61827694592
+    m_Key: UserMainBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64965033984
+    m_Key: UserButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67875880960
+    m_Key: UserNameLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28165853098262528
+    m_Key: UserMailLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28165856587923456
+    m_Key: MainMenu_Placeholder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28165859129671680
+    m_Key: MainMenu_Label_Library
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28165861667225600
+    m_Key: MainMenu_Label_Meetings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28165864326414336
+    m_Key: MainMenu_Label_Topics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28165867421810688
+    m_Key: MainMenu_Label_Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30062693276172288
+    m_Key: MainMenu_Label_Help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30062695939555328
+    m_Key: MainMenu_Label_Search
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30062697755688960
+    m_Key: MainMenu_Button_Library
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30062699097866240
+    m_Key: MainMenu_Button_Meetings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30062700280659968
+    m_Key: MainMenu_Button_Topics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30062701618642944
+    m_Key: MainMenu_Button_Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30068924816539648
+    m_Key: MainMenu_Button_Help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30068926628478976
+    m_Key: MainMenu_Button_Search
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30068927769329664
+    m_Key: New Entry 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30099587720527872
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30099596314656768
+    m_Key: New Entry 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30099611430928384
+    m_Key: ProjectLibrary_TabMine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30099812929486848
+    m_Key: ProjectLibrary_TabShared
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30099818403053568
+    m_Key: ProjectLibrary_Card_DownloadBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30099820198215680
+    m_Key: ProjectLibrary_Card_LoadBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30100560446734336
+    m_Key: New Entry 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32337176057856000
+    m_Key: TopicsBasis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32337177672663040
+    m_Key: TopicsMore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32337178536689664
+    m_Key: TopicsDownloadTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32337179346190336
+    m_Key: TopicsAvailableTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32337180398960640
+    m_Key: Topics_ItemDeleteBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32337181468508160
+    m_Key: Topics_ItemDownloadBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33311988423049216
+    m_Key: New Entry 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34772599493345280
+    m_Key: New Entry 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34772600319623168
+    m_Key: InsufficientDiskSpace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34772668737110016
+    m_Key: LowDiskSpace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38436712354398208
+    m_Key: New Entry 6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38436714074062848
+    m_Key: MeetingBar_LeaveButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46744010332028928
+    m_Key: VariantsTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46771699403177984
+    m_Key: StartingpointsTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47123535335243776
+    m_Key: SunWindowTitleLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47123538686492672
+    m_Key: SunYearLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47123919822897152
+    m_Key: SunDateLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47123921509007360
+    m_Key: SunTimeLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47124164199825408
+    m_Key: SunStudiesLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47396855234412544
+    m_Key: AttributeTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50660637230481408
+    m_Key: MainMenu_Label_Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50753646521466880
+    m_Key: New Entry 7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50753647842672640
+    m_Key: New Entry 8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50753841061675008
+    m_Key: Disclaimer_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50753843620200448
+    m_Key: Disclaimer_Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50753845956427776
+    m_Key: Disclaimer_PrivacyTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50753848514953216
+    m_Key: Disclaimer_PrivacyText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50753850997981184
+    m_Key: Disclaimer_NeverShowAgain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52947990611476480
+    m_Key: 
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8943072792561057816
+  references:
+    version: 2
+    RefIds:
+    - rid: 8943072792561057816
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1752594277186

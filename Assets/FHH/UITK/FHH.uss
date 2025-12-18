@@ -1,0 +1,153 @@
+/* Project wide*/
+
+/* Tokens or “USS variables” */
+:root {
+    /* --app-font: resource("HamburgSans-Regular SDF"); */
+    --app-font: resource("Arial SDF");
+    --app-color-primary: #003063; /*blue*/
+    --app-color-primary-contrast: #ffffff;
+    --app-color-secondary: #E10018; /*red*/
+    --app-color-tertiary: rgba(255, 255, 255, 0.8);
+    --app-color-quaternary: rgba(255, 255, 255, 0);
+    --app-color-menu-item: #6B86A3;
+    --app-color-menu-item-hover: #879BB0;
+    --app-color-menu-item-bright: #DDDDDD;
+    --app-color-menu-item-bright-hover: #E4E4E4;
+    --app-color-menu-background: #D4D4D4;
+    --app-color-border: #001F38;
+    --app-color-text: #111111;
+    --app-font-size: 14px;
+    --app-pad: 10px;
+    --app-pad-sm: 10px;
+    --app-radius: 12px;
+}
+
+/* Surfaces */
+.app-background0 { background-color: var(--app-color-quaternary); } /* fully transparent; for future changes */
+.app-background1 { background-color: var(--app-color-primary); }
+.app-background2 { background-color: var(--app-color-secondary); }
+.app-background3 { background-color: var(--app-color-tertiary); }
+
+/* Typo / global */
+* {
+    -unity-font-definition: var(--app-font);
+    color: var(--app-color-text);
+    -unity-font-style: normal;
+    font-size: var(--app-font-size);
+}
+
+/* Buttons */
+.btn {
+    padding-left: var(--app-pad);
+    padding-right: var(--app-pad);
+    padding-top: var(--app-pad-sm);
+    padding-bottom: var(--app-pad-sm);
+    border-radius: var(--app-radius);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.btn-primary {
+    background-color: var(--app-color-primary-contrast);
+    color: var(--app-color-text);
+}
+
+/* Simple utilities */
+.row { flex-direction: row; display: flex; }
+.col { flex-direction: column; display: flex; }
+.center { align-items: center; justify-content: center; }
+
+
+#ContentParent
+{
+    justify-content: flex-start;
+    flex-grow:1;
+    flex-direction: column;
+}
+
+#Content1
+{
+    align-self: center;
+    flex-grow: 1;    
+    /* margin-left: 150px; */
+    margin-top: 50px;
+    width: 80%;
+    max-width: 1350px;
+    /* max-height: 80%; */
+    max-height: 750px;
+}
+
+#Sidebar
+{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    /* align-content: flex-end;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0; */
+    /* justify-content: flex-end; */
+}
+
+#SidebarContent
+{
+    position: absolute;
+    /* bottom: 300px; */
+    bottom: 20%;
+    right: 150px;
+    width: 300px;
+    flex-direction: column;
+}
+
+#Footer
+{
+    height: 50px;
+    width: 100%;
+    align-self: flex-end;
+    flex-shrink: 0;
+}
+
+#ToastItem 
+{
+    background-color: var(--app-color-tertiary);
+    color: var(--app-color-text);
+    padding: var(--app-pad);
+    border-radius: var(--app-radius);
+    min-width: 200px;
+    min-height: 50px;
+    transition: opacity 0.3s ease-in-out;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-width: 4px;
+    -unity-text-align: middle-center;
+    font-size: 16px;
+    -unity-font-style: bold;
+}
+
+ #Notifications
+ {
+    position: absolute;
+    top: 200px;
+    width: 300px;
+    flex-direction: column;
+ }
+
+#Toolbar1
+{
+    justify-content: center;
+}
+
+/* Scollbar styles */
+#unity-tracker {
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.5);
+}
+
+#unity-low-button, #unity-high-button
+{
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.2);
+}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_GUID: e26720c74ad11184586335aa2b759ac4
+  m_SerializeEntries:
+  - m_GUID: 401d602d9c1a0514d85d9fb06d348526
+    m_Address: Assets/FHH/Localization/Tables/General Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9866c1dc43af0564a920a875c1a73cac
+    m_Address: Assets/FHH/Localization/Tables/Help Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbed7bf97b260ec45a6826600437446f
+    m_Address: Assets/FHH/Localization/Tables/Settings Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfd171a64584580469ec89a82907109f
+    m_Address: Assets/FHH/Localization/Tables/Notifications Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: f322de973a5ed194db27ef0ee626f562, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d61da95f4992c1c4fa27904a7fe36614, type: 2}
+    - {fileID: 11400000, guid: c494f52c1f56bdf4581fb30f14743eaf, type: 2}

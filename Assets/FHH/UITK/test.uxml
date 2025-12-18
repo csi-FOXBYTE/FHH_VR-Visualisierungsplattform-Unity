@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-basis: 11%; background-color: rgba(42, 123, 255, 0.74); flex-direction: column; flex-wrap: nowrap; justify-content: flex-end; background-image: none; max-width: 90%; min-width: 500px; align-items: stretch; align-self: center; margin-top: 20px; padding-left: 20px; padding-right: 20px; padding-bottom: 20px; padding-top: 20px; min-height: 150px;">
+        <ui:Label text="Label" name="asd" style="align-self: center; font-size: 26px;" />
+        <ui:Button text="Button" />
+        <ui:Slider label="Slider" value="42" high-value="100" />
+    </ui:VisualElement>
+</ui:UXML>

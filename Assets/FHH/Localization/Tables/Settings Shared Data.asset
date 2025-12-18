@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Settings Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: Settings
+  m_TableCollectionNameGuidString: bbed7bf97b260ec45a6826600437446f
+  m_Entries:
+  - m_Id: 13299597312
+    m_Key: Settings_LanguageHeader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16457908224
+    m_Key: Settings_LanguageLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18311790592
+    m_Key: Settings_VrOptionsHeader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20434108416
+    m_Key: Settings_ModeTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22300573696
+    m_Key: Settings_ModeHint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24435474432
+    m_Key: Settings_SupportPlatformTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26557792256
+    m_Key: Settings_VignetteTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28789161984
+    m_Key: Settings_ControlHeader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31314132992
+    m_Key: Settings_MoveTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32979271680
+    m_Key: Settings_MoveSpeedLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35177086976
+    m_Key: Settings_TurnTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37324570624
+    m_Key: Settings_TurnSpeedLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1123192127488
+    m_Key: Settings_AngleTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1125352194048
+    m_Key: Settings_AngleMinLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1126627262464
+    m_Key: Settings_AngleMaxLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1128032354304
+    m_Key: Settings_ModeToggle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2354224545792
+    m_Key: Settings_MoveSpeed_MinLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2355629637632
+    m_Key: Settings_MoveSpeed_MaxLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2481932713984
+    m_Key: Settings_TurnSpeed_MinLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2482909986816
+    m_Key: Settings_TurnSpeed_MaxLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4097160127168512
+    m_Key: Settings_VignetteToggle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4097169547575296
+    m_Key: Settings_SupportPlatformToggle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15341738566074368
+    m_Key: Settings_DisclaimerButton
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 291832860638445657
+  references:
+    version: 2
+    RefIds:
+    - rid: 291832860638445657
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1761038250631

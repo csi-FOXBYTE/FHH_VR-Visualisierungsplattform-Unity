@@ -1,0 +1,509 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: General_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 401d602d9c1a0514d85d9fb06d348526, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 8943072792561057817
+  m_TableData:
+  - m_Id: 54575742976
+    m_Localized: deutsch {eins} nnlsbnsfbns {zwei}
+    m_Metadata:
+      m_Items:
+      - rid: 8943072792561057817
+  - m_Id: 61827694592
+    m_Localized: Anmelden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64965033984
+    m_Localized: '{loginState:choose(loggedIn|loggedOut):    {initials} abmelden|   
+      Anmelden}'
+    m_Metadata:
+      m_Items:
+      - rid: 8943072792561057817
+  - m_Id: 58761658368
+    m_Localized: 
+    m_Metadata:
+      m_Items:
+      - rid: 8943072792561057817
+  - m_Id: 67875880960
+    m_Localized: ' '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28165853098262528
+    m_Localized: ' '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28165859129671680
+    m_Localized: Projektbibliothek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28165861667225600
+    m_Localized: Zusammenarbeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28165864326414336
+    m_Localized: Themen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28165867421810688
+    m_Localized: Einstellungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30062693276172288
+    m_Localized: Hilfe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30062695939555328
+    m_Localized: Suche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30062697755688960
+    m_Localized: ' '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30062699097866240
+    m_Localized: ' '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30062700280659968
+    m_Localized: ' '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30062701618642944
+    m_Localized: ' '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30068924816539648
+    m_Localized: ' '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30068926628478976
+    m_Localized: ' '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30099611430928384
+    m_Localized: Meine Projekte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30099812929486848
+    m_Localized: Mit mir geteilte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30099818403053568
+    m_Localized: Herunterladen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30099820198215680
+    m_Localized: Laden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30068927769329664
+    m_Localized: ' '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30099587720527872
+    m_Localized: ' '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30099596314656768
+    m_Localized: ' '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30100560446734336
+    m_Localized: ' '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32337176057856000
+    m_Localized: Basisdaten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32337177672663040
+    m_Localized: Themen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32337178536689664
+    m_Localized: Herunterladen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32337179346190336
+    m_Localized: Stadtmodell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32337180398960640
+    m_Localized: "L\xF6schen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32337181468508160
+    m_Localized: Herunterladen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34772600319623168
+    m_Localized: "Nicht gen\xFCgend Speicherplatz"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34772668737110016
+    m_Localized: Wenig Speicherplatz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38436714074062848
+    m_Localized: Verlassen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46744010332028928
+    m_Localized: Varianten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46771699403177984
+    m_Localized: Startpunkte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47123535335243776
+    m_Localized: Sonnenstandssimulation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47124164199825408
+    m_Localized: Sonnenstudien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47123538686492672
+    m_Localized: Jahr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47123919822897152
+    m_Localized: Tag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47123921509007360
+    m_Localized: Uhrzeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47396855234412544
+    m_Localized: Attribute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50660637230481408
+    m_Localized: App beenden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50753841061675008
+    m_Localized: Hamburg in 3D und Virtual Reality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50753843620200448
+    m_Localized: "Diese Visualisierungsplattform f\xFCr ein hochaufl\xF6sendes Stadtmodell
+      macht ihren Nutzern die Stadt Hamburg virtuell in 3D erlebbar und begreifbar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50753845956427776
+    m_Localized: Datenschutzhinweise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50753848514953216
+    m_Localized: "<b>Datenschutzerkl\xE4rung\nund\n\nallgemeine Informationen zur
+      Umsetzung der datenschutzrechtlichen Vorgaben der Artikel 12 bis 14 der Datenschutz-Grundverordnung
+      in der VR-Visualisierungsplattform des Landesbetriebs Geoinformation und Vermessung
+      der Freien und Hansestadt Hamburg</b>\n\nFast jede nat\xFCrliche Person sowie
+      Unternehmen treten mit der Verwaltung (einschlie\xDFlich Landesbetriebe) fr\xFCher
+      oder sp\xE4ter in Kontakt. Hierbei m\xFCssen personenbezogene Daten verarbeitet
+      werden. Daten sind personenbezogen, wenn sie einer nat\xFCrlichen Person (einem
+      Menschen) zugeordnet werden k\xF6nnen. Wenn Verwaltungsbeh\xF6rden oder Landesbetriebe
+      personenbezogene Daten verarbeiten, bedeutet dies, dass sie diese Daten z.B.
+      erheben, speichern, verwenden, \xFCbermitteln, zum Abruf bereitstellen oder
+      l\xF6schen. Personenbezogene Daten werden grunds\xE4tzlich nur f\xFCr den Zweck
+      verarbeitet, f\xFCr den sie erhoben wurden. Eine zweck\xE4ndernde Verarbeitung
+      erfolgt nur, wenn dies gesetzlich erlaubt ist oder Sie eingewilligt haben.
+      Als Betreiber dieses Online-Dienstes nehmen wir den Schutz Ihrer pers\xF6nlichen
+      Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und
+      entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerkl\xE4rung.\nIm
+      Folgenden informieren wir Sie dar\xFCber, welche personenbezogenen Daten wir
+      f\xFCr diesen Online-Dienst erheben, bei wem wir sie erheben und was wir mit
+      diesen Daten machen. Au\xDFerdem informieren wir Sie \xFCber Ihre Rechte in
+      Datenschutzfragen und an wen Sie sich diesbez\xFCglich wenden k\xF6nnen.\n\n<b>Inhaltsverzeichnis</b>\n1.
+      Wer sind wir und auf welcher Rechtsgrundlage verarbeiten wir Daten?  2\n2.
+      Wer sind Ihre Ansprechpersonen?  2\n3. Zu welchem Zweck verarbeiten wir Ihre
+      personenbezogenen Daten?  3\n4. Welche personenbezogenen Daten verarbeiten
+      wir?  3\n5. Wie verarbeiten wir diese Daten und geben wir diese weiter?  3\n6.
+      Wie lange speichern wir Ihre Daten?  4\n7. Welche Rechte (Auskunftsrecht, Widerspruchsrecht
+      usw.) haben Sie?  4\n8. Weitere Hinweise zur Datenerfassung: Verwendung von
+      Cookies  7\n\n<b>1. Wer sind wir und auf welcher Rechtsgrundlage verarbeiten
+      wir Daten?</b>\n\nWir sind der Landesbetrieb Geoinformation und Vermessung
+      (LGV) der Freien und Hansestadt Hamburg. Zu unseren Kernaufgaben z\xE4hlen\n\u2022
+      die Sicherstellung eines einheitlichen Raumbezuges\n\u2022 der Nachweis des
+      Eigentums an Grund und Boden\n\u2022 der Nachweis der Geotopografie Hamburgs\n\u2022
+      die Durchf\xFChrung von Vermessungsarbeiten f\xFCr kommunale Auftraggeber\n\u2022
+      der Aufbau der Geodateninfrastruktur in Hamburg und der Metropolregion\n\u2022
+      die Bewertung von Grundst\xFCcken innerhalb der Freien und Hansestadt Hamburg.\nMa\xDFgebliche
+      Rechtsgrundlagen der Arbeit des LGV sind unter anderem das Hamburgische Vermessungsgesetz,
+      das Hamburgische Geodateninfrastrukturgesetz sowie \xA7\xA7 192 ff. Baugesetzbuch.
+      Ferner agiert der LGV als zukunftsgestaltender und innovativer Dienstleister
+      f\xFCr \xF6ffentliche und private Akteure im Bereich der Vermessung, der Geoinformation
+      und im Angebot moderner Werbe- und Softwareanwendungen. Zum Angebotsportfolio
+      des LGV geh\xF6ren IT-basierte urbane (Geo-)Anwendungen genauso wie 3D-Darstellungen
+      und Datenanalysen wie zum Beispiel diese VR-Visualisierungsplattform.\nWir
+      verarbeiten Daten generell auf der Grundlage folgender Regelungen:\nSofern
+      Sie in die Datenverarbeitung eingewilligt haben, verarbeiten wir Ihre personenbezogenen
+      Daten auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO bzw. Art. 9 Abs. 2 lit.
+      a DSGVO, sofern besondere Datenkategorien nach Art. 9 Abs. 1 DSGVO verarbeitet
+      werden. Im Falle einer ausdr\xFCcklichen Einwilligung in die \xDCbertragung
+      personenbezogener Daten in Drittstaaten erfolgt die Datenverarbeitung au\xDFerdem
+      auf Grundlage von Art. 49 Abs. 1 lit. a DSGVO. Sofern Sie in die Speicherung
+      von Cookies oder in den Zugriff auf Informationen in Ihr Endger\xE4t (z. B.
+      via Device-Fingerprinting) eingewilligt haben, erfolgt die Datenverarbeitung
+      zus\xE4tzlich auf Grundlage von \xA7 25 Abs. 1 TDDDG. Die Einwilligung ist
+      jederzeit widerrufbar. Sind Ihre Daten zur Vertragserf\xFCllung oder zur Durchf\xFChrung
+      vorvertraglicher Ma\xDFnahmen erforderlich, verarbeiten wir Ihre Daten auf
+      Grundlage des Art. 6 Abs. 1 lit. b DSGVO. Des Weiteren verarbeiten wir Ihre
+      Daten, sofern diese zur Erf\xFCllung einer rechtlichen Verpflichtung (Art.
+      6 Abs. 1 lit. c DSGVO) oder zur Wahrnehmung einer uns \xFCbertragenen Aufgabe
+      des \xF6ffentlichen Interesses (z.B. Geoinformationsdienst) nach Art. 6 Abs.
+      1 lit. e DSGVO erforderlich sind. Die Datenverarbeitung kann ferner auf Grundlage
+      unseres berechtigten Interesses nach Art. 6 Abs. 1 lit. f DSGVO erfolgen. \xDCber
+      die jeweils im Einzelfall einschl\xE4gigen Rechtsgrundlagen wird in den folgenden
+      Abs\xE4tzen dieser Datenschutzerkl\xE4rung informiert.\n\n<b>2. Wer sind Ihre
+      Ansprechpersonen?</b>\n\nGem\xE4\xDF Art. 4 Nr. 7 DSGVO ist Verantwortlicher
+      die nat\xFCrliche oder juristische Person, Beh\xF6rde, Einrichtung oder andere
+      Stelle, die allein oder gemeinsam mit anderen \xFCber die Zwecke und Mittel
+      der Verarbeitung von personenbezogenen Daten entscheidet. Die Datenverarbeitung
+      bei diesem Online-Dienst erfolgt durch den LGV als Betreiber, den Sie bei Fragen
+      kontaktieren k\xF6nnen.\n\n<b>Verantwortliche Stelle:</b>\n\nFreie und Hansestadt
+      Hamburg\nLandesbetrieb Geoinformation und Vermessung (LGV)\nFachbereich 3D-Stadtmodell\nNeuenfelder
+      Stra\xDFe 19\n21109 Hamburg\nE-Mail: 3D-info@gv.hamburg.de\n\nFragen in datenschutzrechtlichen
+      Angelegenheiten k\xF6nnen Sie an den oder die zust\xE4ndige(n) Datenschutzbeauftragte(n)
+      richten:\n\n<b>Datenschutzbeauftragte(r) der Beh\xF6rde f\xFCr Stadtentwicklung
+      und Wohnen</b>\nNeuenfelder Stra\xDFe 19\n21109 Hamburg\nTel.: +49 40 42840
+      2489\nE-Mail: datenschutz@bsw.hamburg.de\n\n<b>3. Zu welchem Zweck verarbeiten
+      wir Ihre personenbezogenen Daten?</b>\n\nDer Zweck der Datenverarbeitung in
+      Verfahren der \xF6ffentlichen Verwaltung einschlie\xDFlich der Landesbetriebe
+      ist es, die zugewiesenen \xF6ffentlichen Aufgaben hinreichend erf\xFCllen,
+      Ihr(e) Anliegen inhaltlich bearbeiten und die Anwendung (z.B. VR-Visualisierungsplattform)
+      fehlerfrei bereitstellen zu k\xF6nnen. Im vorliegenden Fall verarbeiten wir
+      personenbezogene Daten, um Ihre Registrierung zu erm\xF6glichen, Ihre nutzergebundenen
+      Projekte vorzuhalten, Ihre 3D-Modelle entgegenzunehmen und diese in der Visualisierungsumgebung
+      anzuzeigen.  \n\n<b>4. Welche personenbezogenen Daten verarbeiten wir?</b>\n\nPersonenbezogene
+      Daten sind Daten, mit denen Sie pers\xF6nlich identifiziert werden k\xF6nnen.
+      Wir verarbeiten insbesondere folgende projektbezogene, ggf. in Teilen personenbezogene
+      Daten: 3D-Modell, Daten zum Projektkontext (Name des Projektes und Nutzerkonten,
+      die Zugriff auf das Projekt erhalten haben) sowie Metadaten (Erstelldatum,
+      Dateiformat, Gr\xF6\xDFe).\n\n<b>5. Wie verarbeiten wir diese Daten und geben
+      wir diese weiter?</b>\n\nIn Verwaltungsverfahren beziehungsweise in den Verfahren
+      zum Betrieb dieses Online-Dienstes werden Ihre personenbezogenen Daten gespeichert,
+      f\xFCr die genannten Zwecke verwendet und bei Bedarf automatisiert mit geeigneten
+      Mitteln der Informationstechnik verarbeitet. Wir setzen dabei technische und
+      organisatorische Sicherheitsma\xDFnahmen ein, um Ihre personenbezogenen Daten
+      gegen unbeabsichtigte oder unrechtm\xE4\xDFige Vernichtung, Verlust oder Ver\xE4nderung
+      sowie gegen unbefugte Offenlegung oder unbefugten Zugang zu sch\xFCtzen. Unsere
+      Sicherheitsstandards entsprechen stets den aktuellsten technologischen Entwicklungen.\n\nIm
+      Rahmen unserer Gesch\xE4ftst\xE4tigkeit als Landesbetrieb der Freien und Hansestadt
+      Hamburg arbeiten wir auch mit externen Stellen zusammen. Dabei ist teilweise
+      eine \xDCbermittlung von personenbezogenen Daten an diese externen Stellen
+      erforderlich. Wir geben personenbezogene Daten nur dann an externe Stellen
+      weiter, wenn dies im Rahmen einer Vertragserf\xFCllung erforderlich ist, wenn
+      wir gesetzlich hierzu verpflichtet sind (z. B. Weitergabe von Daten an Steuerbeh\xF6rden),
+      wenn wir ein berechtigtes Interesse nach Art. 6 Abs. 1 lit. f DSGVO an der
+      Weitergabe haben oder wenn eine sonstige Rechtsgrundlage die Datenweitergabe
+      erlaubt. Beim Einsatz von Auftragsverarbeitern geben wir personenbezogene Daten
+      unserer Kunden nur auf Grundlage eines g\xFCltigen Vertrags \xFCber Auftragsverarbeitung
+      weiter. Im Falle einer gemeinsamen Verarbeitung wird ein Vertrag \xFCber gemeinsame
+      Verarbeitung geschlossen.\nIm Rahmen des hier einschl\xE4gigen Verfahrens geben
+      wir, wenn dies erforderlich ist, Daten an die folgenden Empf\xE4nger weiter:\n\u2022
+      Microsoft Ireland Operations Limited (als Anbieter der Cloud-Infrastruktur
+      \u201EMicrosoft Azure\u201C) zur Verarbeitung ausschlie\xDFlich in Rechenzentren
+      innerhalb der Europ\xE4ischen Union)\n\u2022 Beauftragte IT-Dienstleister im
+      Rahmen von Wartungs-, Betriebs- und Supportleistungen (sofern ein entsprechender
+      Auftragsverarbeitungsvertrag besteht)\n\n<b>6. Wie lange speichern wir Ihre
+      Daten?</b>\n\nIn Verfahren der \xF6ffentlichen Verwaltung einschlie\xDFlich
+      der Landesbetriebe werden Daten grunds\xE4tzlich f\xFCr die Dauer der Bearbeitung
+      gespeichert. Nach Abschluss dieser Verfahren werden Daten so lange gespeichert,
+      wie es nach den geltenden Bestimmungen, insbesondere den gesetzlichen Aufbewahrungsfristen
+      und der Akten- und Gesch\xE4ftsordnung vorgeschrieben ist. Dar\xFCber hinaus
+      werden nutzungsbezogene Daten nur solange gespeichert, wie der/die Nutzer:in
+      den entsprechenden Dienst aktiv verwendet. Bei l\xE4ngerer Inaktivit\xE4t werden
+      die Daten gem\xE4\xDF den internen L\xF6sch- und Aufbewahrungsfristen automatisiert
+      gel\xF6scht.\n\n<b>7. Welche Rechte (Auskunftsrecht, Widerspruchsrecht usw.)
+      haben Sie?</b>\n\nSie haben nach der DSGVO verschiedene Rechte. Einzelheiten
+      ergeben sich insbesondere aus Artikel 15 bis 18 und 21 der DSGVO. Diese Rechte
+      k\xF6nnen Sie gegen\xFCber der verantwortlichen Stelle (s. Ziff. 2) geltend
+      machen.\n\n\u2022 <b>Recht auf Auskunft</b>  \nSie k\xF6nnen jederzeit unentgeltlich
+      Auskunft \xFCber Ihre durch uns verarbeiteten personenbezogenen Daten sowie
+      \xFCber Herkunft, Empf\xE4nger und Zweck Ihrer gespeicherten personenbezogenen
+      Daten verlangen. Bitte beschreiben Sie in Ihrem Auskunftsantrag Ihr Anliegen
+      m\xF6glichst genau, um das Zusammenstellen der erforderlichen Daten zu erleichtern.
+      \n\n\u2022 <b>Recht auf Berichtigung</b>  \nWenn Ihre Angaben nicht (mehr)
+      zutreffend sind, k\xF6nnen Sie eine Berichtigung verlangen. Wenn Ihre Daten
+      unvollst\xE4ndig sind, k\xF6nnen Sie eine Vervollst\xE4ndigung verlangen. Hierzu
+      sowie zu weiteren Fragen zum Thema k\xF6nnen Sie sich jederzeit an uns wenden.\n\n\u2022
+      <b>Recht auf L\xF6schung</b>  \nSie k\xF6nnen grunds\xE4tzlich die L\xF6schung
+      Ihrer personenbezogenen Daten verlangen. F\xFCr die Bearbeitung bestimmter
+      Anliegen ist es in Verwaltungsverfahren zwingend notwendig, Ihre Daten zu verarbeiten.
+      Dies geschieht dann auf gesetzlicher Grundlage. Wir weisen darauf hin, dass
+      in diesem Fall eine L\xF6schung nicht immer oder nicht vollst\xE4ndig m\xF6glich
+      sein kann.\n\n\u2022 <b>Recht auf Daten\xFCbertragbarkeit</b>  \nSie haben
+      das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erf\xFCllung
+      eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in
+      einem g\xE4ngigen, maschinenlesbaren Format aush\xE4ndigen zu lassen. Sofern
+      Sie die direkte \xDCbertragung der Daten an einen anderen Verantwortlichen
+      verlangen, erfolgt dies nur, soweit es technisch machbar ist.\n\n\u2022 <b>Recht
+      auf Widerruf der Einwilligung zur Datenverarbeitung</b>  \nViele Datenverarbeitungsvorg\xE4nge
+      sind nur mit Ihrer ausdr\xFCcklichen Einwilligung m\xF6glich. Wenn Sie eine
+      Einwilligung zur Datenverarbeitung erteilt haben, k\xF6nnen Sie diese Einwilligung
+      jederzeit f\xFCr die Zukunft widerrufen. Die Rechtm\xE4\xDFigkeit der bis zum
+      Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unber\xFChrt.\n\n\u2022
+      <b>Recht auf Einschr\xE4nkung der Verarbeitung</b>  \nSie haben das Recht,
+      die Einschr\xE4nkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
+      Hierzu k\xF6nnen Sie sich jederzeit an uns wenden. Das Recht auf Einschr\xE4nkung
+      der Verarbeitung besteht in folgenden F\xE4llen: \n- Wenn Sie die Richtigkeit
+      Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, ben\xF6tigen
+      wir in der Regel Zeit, um dies zu \xFCberpr\xFCfen. F\xFCr die Dauer der Pr\xFCfung
+      haben Sie das Recht, die Einschr\xE4nkung der Verarbeitung Ihrer personenbezogenen
+      Daten zu verlangen.\n- Wenn die Verarbeitung Ihrer personenbezogenen Daten
+      unrechtm\xE4\xDFig geschah oder geschieht, k\xF6nnen Sie statt der L\xF6schung
+      die Einschr\xE4nkung der Datenverarbeitung verlangen.\n- Wenn wir Ihre personenbezogenen
+      Daten nicht mehr ben\xF6tigen, Sie sie jedoch zur Aus\xFCbung, Verteidigung
+      oder Geltendmachung von Rechtsanspr\xFCchen ben\xF6tigen, haben Sie das Recht,
+      statt der L\xF6schung die Einschr\xE4nkung der Verarbeitung Ihrer personenbezogenen
+      Daten zu verlangen.\n- Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO
+      eingelegt haben, muss eine Abw\xE4gung zwischen Ihren und unseren Interessen
+      vorgenommen werden. Solange noch nicht feststeht, wessen Interessen \xFCberwiegen,
+      haben Sie das Recht, die Einschr\xE4nkung der Verarbeitung Ihrer personenbezogenen
+      Daten zu verlangen.\nWenn Sie die Verarbeitung Ihrer personenbezogenen Daten
+      eingeschr\xE4nkt haben, d\xFCrfen diese Daten \u2013 von ihrer Speicherung
+      abgesehen \u2013 nur mit Ihrer Einwilligung oder zur Geltendmachung, Aus\xFCbung
+      oder Verteidigung von Rechtsanspr\xFCchen oder zum Schutz der Rechte einer
+      anderen nat\xFCrlichen oder juristischen Person oder aus Gr\xFCnden eines wichtigen
+      \xF6ffentlichen Interesses der Europ\xE4ischen Union oder eines Mitgliedstaats
+      verarbeitet werden.\n\n\u2022 <b>Recht auf Widerspruch</b>  \nSie haben das
+      Recht, der Verarbeitung Ihrer Daten zu widersprechen. Bitte beachten Sie, dass
+      ein Widerspruch nur zuk\xFCnftige Verarbeitungen verhindert.\nWenn die Datenverarbeitung
+      auf Grundlage von Art. 6 Abs. 1 lit. e oder f DSGVO erfolgt, haben Sie jederzeit
+      das Recht, aus Gr\xFCnden, die sich aus Ihrer besonderen Situation ergeben,
+      gegen die Verarbeitung Ihrer personenbezogenen Daten Widerspruch einzulegen;
+      dies gilt auch f\xFCr ein auf diese Bestimmungen gest\xFCtztes Profiling. Die
+      jeweilige Rechtsgrundlage, auf denen eine Verarbeitung beruht, entnehmen Sie
+      dieser Datenschutzerkl\xE4rung. Wenn Sie Widerspruch einlegen, werden wir Ihre
+      betroffenen personenbezogenen Daten nicht mehr verarbeiten, es sei denn, wir
+      k\xF6nnen zwingende schutzw\xFCrdige Gr\xFCnde f\xFCr die Verarbeitung nachweisen,
+      die Ihre Interessen, Rechte und Freiheiten \xFCberwiegen oder die Verarbeitung
+      dient der Geltendmachung, Aus\xFCbung oder Verteidigung von Rechtsanspr\xFCchen
+      (Widerspruch nach Art. 21 Abs. 1 DSGVO). \n\n\u2022 <b>Recht auf Beschwerde</b> 
+      \nIm Falle von Verst\xF6\xDFen gegen die DSGVO steht den Betroffenen ein Beschwerderecht
+      bei einer Aufsichtsbeh\xF6rde, insbesondere in dem Mitgliedstaat ihres gew\xF6hnlichen
+      Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutma\xDFlichen Versto\xDFes
+      zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher
+      oder gerichtlicher Rechtsbehelfe.\nWenn Sie glauben, dass wir Ihrem Anliegen
+      nicht oder nicht in vollem Umfang nachgekommen sind, k\xF6nnen Sie bei der
+      f\xFCr den LGV zust\xE4ndigen Datenschutzaufsichtsbeh\xF6rde Beschwerde einlegen:\n\nDer
+      Hamburgische Beauftragte f\xFCr Datenschutz und Informationsfreiheit\nLudwig-Erhard-Stra\xDFe
+      22, 20459 Hamburg\nTel.: +49 40 42854 4040\nE-Fax: +49 40 4279 11811\nE-Mail:
+      mailbox@datenschutz.hamburg.de\n\n<b>Allgemeine Hinweise zu diesen Rechten</b>\nWir
+      antworten grunds\xE4tzlich innerhalb eines Monats, nachdem wir Ihren Antrag
+      erhalten haben. Wenn wir l\xE4nger als einen Monat f\xFCr eine abschlie\xDFende
+      Kl\xE4rung brauchen, erhalten Sie eine Zwischennachricht. Wenn es Gr\xFCnde
+      gibt, warum wir Ihr Anliegen nicht erf\xFCllen k\xF6nnen, teilen wir Ihnen
+      dies mit. Sie erhalten in jedem Fall eine Nachricht von uns.\n\n<b>8. Weitere
+      Hinweise zur Datenerfassung: Verwendung von Cookies</b>\n\nUnser Online-Dienst
+      verwendet so genannte \u201ECookies\u201C. Cookies sind kleine Datenpakete
+      und richten auf Ihrem Endger\xE4t keinen Schaden an. Sie werden entweder vor\xFCbergehend
+      f\xFCr die Dauer einer Sitzung (Session-Cookies) oder dauerhaft (permanente
+      Cookies) auf Ihrem Endger\xE4t gespeichert. Session-Cookies werden nach Ende
+      Ihres Besuchs automatisch gel\xF6scht. Permanente Cookies bleiben auf Ihrem
+      Endger\xE4t gespeichert, bis Sie diese selbst l\xF6schen oder eine automatische
+      L\xF6schung durch Ihren Webbrowser erfolgt. Cookies k\xF6nnen von uns (First-Party-Cookies)
+      oder von Drittunternehmen stammen (sog. Third-Party-Cookies). Third-Party-Cookies
+      erm\xF6glichen die Einbindung bestimmter Dienstleistungen von Drittunternehmen
+      innerhalb von Webseiten (z. B. Cookies zur Abwicklung von Zahlungsdienstleistungen).
+      Cookies haben verschiedene Funktionen. Zahlreiche Cookies sind technisch notwendig,
+      da bestimmte Webseitenfunktionen ohne diese nicht funktionieren w\xFCrden (z.
+      B. die Warenkorbfunktion oder die Anzeige von Videos). Andere Cookies k\xF6nnen
+      zur Auswertung des Nutzerverhaltens oder zu Werbezwecken verwendet werden.
+      Cookies, die zur Durchf\xFChrung des elektronischen Kommunikationsvorgangs,
+      zur Bereitstellung bestimmter, von Ihnen erw\xFCnschter Funktionen (z. B. f\xFCr
+      die Warenkorbfunktion) oder zur Optimierung der Website (z. B. Cookies zur
+      Messung des Webpublikums) erforderlich sind (notwendige Cookies), werden auf
+      Grundlage von Art. 6 Abs. 1 lit. f DSGVO gespeichert, sofern keine andere Rechtsgrundlage
+      angegeben wird. Der Websitebetreiber hat ein berechtigtes Interesse an der
+      Speicherung von notwendigen Cookies zur technisch fehlerfreien und optimierten
+      Bereitstellung seiner Dienste. Sofern eine Einwilligung zur Speicherung von
+      Cookies und vergleichbaren Wiedererkennungstechnologien abgefragt wurde, erfolgt
+      die Verarbeitung ausschlie\xDFlich auf Grundlage dieser Einwilligung (Art.
+      6 Abs. 1 lit. a DSGVO und \xA7 25 Abs. 1 TDDDG); die Einwilligung ist jederzeit
+      widerrufbar. Sie k\xF6nnen Ihren Browser so einstellen, dass Sie \xFCber das
+      Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben,
+      die Annahme von Cookies f\xFCr bestimmte F\xE4lle oder generell ausschlie\xDFen
+      sowie das automatische L\xF6schen der Cookies beim Schlie\xDFen des Browsers
+      aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalit\xE4t der
+      Website eingeschr\xE4nkt sein.\n\n________________________________________\n\n<b>Hinweis
+      zur Nutzung von\nGeb\xE4udemodell LoD3.0 der Stadt Hamburg mit einer Texturaufl\xF6sung
+      von 5cm\nGel\xE4ndemodell DGM5h der Stadt Hamburg mit einer (Luftbild-)Texturaufl\xF6sung
+      von 5cm</b>\n\nDie Daten unterliegen der Vertraulichkeit.\nEine Weitergabe
+      an Dritte ist untersagt.\n\n<b>Verpflichtung zum datenschutzkonformen Umgang
+      durch den Nutzer</b>\nDer Nutzer verwendet die zur Verarbeitung \xFCberlassenen
+      personenbezogenen Daten f\xFCr keine anderen, insbesondere nicht f\xFCr eigene
+      Zwecke. Kopien oder Duplikate der personenbezogenen Daten werden nicht erstellt.
+      \nDer Nutzer sichert im Bereich der Verarbeitung von personenbezogenen Daten
+      die notwendige Sorgfalt bei der Abwicklung aller Ma\xDFnahmen zu. Er sichert
+      zu, dass die f\xFCr den Auftraggeber verarbeiteten Daten von sonstigen Datenbest\xE4nden
+      strikt getrennt werden. \nDer Nutzer hat \xFCber die gesamte Nutzungsdauer
+      insbesondere folgende \xDCberpr\xFCfungen in seinem Bereich durchzuf\xFChren:
+      Siehe Anlage 1\n\n<b>Anlage 1: Technisch-organisatorische Ma\xDFnahmen</b>\n\n<b>1
+      Technische und organisatorische Sicherheitsma\xDFnahmen</b>\nDie berechtigten
+      Nutzer sind verpflichtet, geeignete technische und organisatorische Ma\xDFnahmen
+      so durchzuf\xFChren, dass die Verarbeitung der Daten im Einklang mit den gesetzlichen
+      Anforderungen erfolgt und der Schutz der Rechte der betroffenen Person in angemessener
+      Form gew\xE4hrleistet ist. \n\n<b>2 Innerbeh\xF6rdliche oder innerbetriebliche
+      Organisation des Nutzers</b>\nDer Auftragsverarbeiter wird seine innerbeh\xF6rdliche
+      oder innerbetriebliche Organisation so gestalten, dass sie den besonderen Anforderungen
+      des Datenschutzes gerecht wird. Dabei sind insbesondere Ma\xDFnahmen zu treffen,
+      die je nach der Art der zu sch\xFCtzenden Daten oder Datenkategorien geeignet
+      sind. \n\n<b>3 Konkretisierung der Einzelma\xDFnahmen</b>\n(1) Im Einzelnen
+      werden folgende Ma\xDFnahmen bestimmt, die der Umsetzung der Vorgaben des Art.
+      32 DSGVO dienen:\n\n<b>1. Zutrittskontrolle</b>\nZutrittskontrollsystem, Chipkarte,
+      Code, Schl\xFCssel, Schl\xFCsselvergabe, Werkschutz, \xDCberwachungseinrichtung,
+      Alarmanlage, T\xFCrsicherung\n\n<b>2. Zugangskontrolle</b>\nManaged Identity,
+      Verschl\xFCsselung von Datentr\xE4gern, SSL-Line\n\n<b>3. Zugriffskontrolle</b>\nDifferenzierte
+      Berechtigungen von Rollen, Zugriffsberechtigte k\xF6nnen nur l\xF6schen\n\n<b>4.
+      Weitergabekontrolle</b>\nVerwendung von dem Stand der Technik entsprechenden
+      Verschl\xFCsselungsverfahren, Daten k\xF6nnen nach der \xDCbertragung nicht
+      mehr exportiert werden\n\n<b>5. Eingabekontrolle</b>\nS\xE4mtliche Anpassungen
+      werden protokolliert, die Prozessierung der Daten erfolgt automatisch, beim
+      manuellen Qualit\xE4tscheck k\xF6nnen nur Daten gel\xF6scht, aber nicht ver\xE4ndert
+      werden\n\n<b>6. Auftragskontrolle</b>\nEindeutige Vertragsgestaltung, Kriterien
+      zur Auswahl des Auftragsverarbeiters, Kontrolle der Vertragsausf\xFChrung\n\n<b>7.
+      Verf\xFCgbarkeitskontrolle</b>\nBackup-Verfahren, redundante Replikation von
+      Blob Storage, unterbrechungsfreie Stromversorgung, Firewall, Notfallplan, gel\xF6schte
+      Daten k\xF6nnen einen Monat wiederhergestellt werden\n\n<b>8. Trennungskontrolle</b>\nDaten,
+      die zu unterschiedlichen Zwecken erhoben wurden, werden getrennt verarbeitet\n\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50753850997981184
+    m_Localized: Nicht mehr anzeigen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52947990611476480
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 8943072792561057817
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 54575742976
+        - id: 64965033984
+        - id: 58761658368

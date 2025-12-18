@@ -1,0 +1,127 @@
+/* full-screen overlay that centers the panel */
+.disclaimer-root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* keep underlying content slightly visible (background image stays) */
+}
+
+/* main white-ish panel */
+.disclaimer-panel {
+    background-color: var(--app-color-tertiary);
+    border-radius: var(--app-radius);
+
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+    max-width: 1400px;
+    width: 90%;
+    max-height: 85%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.disclaimer-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 0px;
+}
+
+/* wraps the text so that it stays vertically centered and wide */
+.disclaimer-content-wrapper {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* central text column – wider, centered horizontally */
+.disclaimer-text-column {
+    max-width: 900px;
+    width: 100%;
+    align-self: center;
+}
+
+/* headings (e.g. "Hamburg in 3D und Virtual Reality") */
+.disclaimer-title-label {
+    -unity-font-style: bold;
+    font-size: 22px;
+    color: var(--app-color-primary);
+    margin-bottom: 12px;
+}
+
+/* body paragraphs */
+.disclaimer-body-label {
+    font-size: 16px;
+    margin-bottom: 24px;
+    white-space: normal;
+}
+
+.disclaimer-privacy-scrollview
+{
+    max-height: 300px;
+    margin-bottom: 10px;
+}
+
+/* footer hosting the "Nicht mehr anzeigen" button */
+.disclaimer-footer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/* actual button bottom-left */
+.disclaimer-never-show-button {
+    align-self: flex-start;
+}
+
+/* label inside the button */
+.disclaimer-never-show-label {
+    font-size: 14px;
+}
+
+
+/* close button: icon-only, no background */
+.disclaimer-close-button {
+    width: 32px;
+    height: 32px;
+
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+
+    background-color: transparent;
+}
+
+/* icon image inside the button */
+.disclaimer-close-icon {
+    width: 32px;
+    height: 32px;
+    --unity-image-tint-color: var(--app-color-primary);
+}
+
+.disclaimer-close-button:hover .disclaimer-close-icon 
+{
+    border-width: 2px;
+    border-color: rgba(0,0,0,0.1);
+}

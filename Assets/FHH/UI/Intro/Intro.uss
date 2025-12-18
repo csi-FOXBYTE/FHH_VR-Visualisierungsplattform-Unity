@@ -1,0 +1,11 @@
+:root {
+}
+
+#Background > #Logo {
+    align-self: center;
+    align-content: center;
+}
+
+#Background {
+    background-color: rgb(70, 70, 70);
+}

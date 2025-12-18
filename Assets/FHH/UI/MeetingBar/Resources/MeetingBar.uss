@@ -1,0 +1,121 @@
+
+.meetingbar-root {
+    background-color: var(--app-color-tertiary);
+    border-radius: 24px;
+
+    /* Layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 6px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.meetingbar-title {
+    -unity-font-style: bold;
+    font-size: 14px;
+    color: var(--app-color-text);
+    margin-right: 10px; /* manual spacing */
+    overflow: hidden;
+    max-width: 200px;
+    align-self: flex-start;
+}
+
+.meetingbar-spacer {
+    flex-grow: 1;
+    min-width: 1px;
+}
+
+.meetingbar-timer {
+    -unity-font-definition: resource("Arial SDF");
+    -unity-font-style: normal;
+    align-self: flex-start;
+    font-size: 14px;
+    margin-right: 12px;
+    opacity: 0.9;
+    width: 50px;
+}
+
+/* Round icon buttons */
+.meetingbar-icon-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 14px;
+    background-color: var(--app-color-primary-contrast);
+    margin-left: 8px; 
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-color: rgba(0,0,0,0.4);
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.meetingbar-icon-btn:hover {
+    background-color: var(--app-color-primary);
+}
+
+.meetingbar-icon-btn:hover .meetingbar-icon{
+    --unity-image-tint-color: var(--app-color-primary-contrast);
+}
+
+/* simple selected state for toggles */
+.meetingbar-icon-btn.is-on {
+    background-color: var(--app-color-menu-item-bright);
+}
+
+/* for guided mode */
+.meetingbar-icon-btn.is-enabled {
+    background-color: var(--app-color-secondary);
+}
+
+.meetingbar-icon.is-enabled {
+    --unity-image-tint-color: var(--app-color-primary-contrast);
+}
+
+.meetingbar-icon {
+    width: 20px;
+    height: 20px;
+    --unity-image-tint-color: var(--app-color-primary);
+}
+
+/* Leave button – localized text (key: LeaveButton) */
+.meetingbar-leave {
+    margin-left: 12px;
+    height: 32px;
+    min-width: 120px;
+    border-radius: 16px;
+    background-color: var(--app-color-secondary);
+    color: var(--app-color-primary-contrast);
+    /* -unity-font-style: bold; */
+}
+.meetingbar-leave:hover {
+    background-color: #C40014; /* slightly darker red */
+    border-radius: 8px;
+}
+
+.meetingbar-status {
+    font-size: 11px;
+    opacity: 0.85;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background-color: var(--app-color-menu-item-bright);
+}
+.meetingbar-status.active { background-color: #E6F4EA; }
+.meetingbar-status.missing-host { background-color: #FFF4E6; }
+.meetingbar-status.planned { background-color: #EEF2FF; }
+.meetingbar-status.ended { background-color: #F5F5F5; }

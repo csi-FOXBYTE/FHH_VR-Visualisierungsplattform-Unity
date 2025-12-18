@@ -1,0 +1,131 @@
+/* Chat root container */
+.chat-root {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: var(--app-color-tertiary);
+    border-radius: var(--app-radius);
+    padding-left: var(--app-pad);
+    padding-right: var(--app-pad);
+    padding-top: var(--app-pad);
+    padding-bottom: var(--app-pad);
+    border-width: 0;
+    width: 60%;
+    max-width: 600px; 
+    align-self: center;
+}
+
+/* ScrollView area */
+.chat-messages-scroll {
+    flex-grow: 1;
+    margin-bottom: var(--app-pad-sm);
+}
+
+/* Ensure vertical stacking of messages inside ScrollView */
+.chat-messages-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Individual message root */
+.chat-message {
+    margin-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 6px;
+}
+
+/* Differentiate own vs remote messages */
+.chat-message-self {
+    background-color: var(--app-color-menu-item-bright);
+    align-self: flex-end;
+}
+
+.chat-message-remote {
+    background-color: var(--app-color-tertiary);
+    align-self: flex-start;
+}
+
+/* Header row: sender + timestamp */
+.chat-message-header-row {
+    align-items: center;
+}
+
+.chat-message-sender {
+    -unity-font-style: bold;
+    font-size: 13px;
+}
+
+.chat-message-timestamp {
+    font-size: 11px;
+    color: var(--app-color-menu-item);
+    margin-left: 6px;
+}
+
+/* Body text */
+.chat-message-body {
+    white-space: normal;
+    font-size: 13px;
+}
+
+/* Input row */
+.chat-input-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+/* Input field stretches */
+.chat-input-field {
+    flex-grow: 1;
+    margin-right: var(--app-pad-sm);
+}
+
+.chat-input-field .unity-text-field__input {
+    border-color: rgba(0,0,0,0.5);
+}
+
+/* Send button */
+.chat-send-button {
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 16px;
+    background-color: var(--app-color-primary);
+}
+
+/* Icon inside button */
+.chat-send-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.unity-base-slider__tracker {
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.1);
+}
+
+.unity-repeat-button
+{
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.1);
+}

@@ -1,0 +1,136 @@
+#MenuBar {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    width: 100%;
+    padding-left: var(--app-pad);
+    padding-right: var(--app-pad);
+    /* border-bottom-width: 1px;
+    border-bottom-color: var(--app-color-border); */
+}
+
+.menu-bar 
+{ 
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.menu-bar__logo {
+    height: 48px;
+    /* margin-top:20px; */
+}
+
+menu-bar__separator {
+    /* width: 16px; */
+}
+
+/* button tweaks */
+.menu-bar__button {
+    margin: 0px;
+    margin-right:10px;
+    align-self: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    padding: 0px;
+    border-radius: 16px;
+    background-color: var(--app-color-primary-contrast);
+}
+
+.menu-bar__button:hover {
+    background-color: var(--app-color-primary);
+    border-radius: 8px;
+    --unity-image-tint-color: var(--app-color-primary-contrast);
+}
+
+.menu-bar__button:hover .menu-bar-button__icon {
+    --unity-image-tint-color: var(--app-color-primary-contrast);
+}
+
+
+.menu-bar-button__icon {
+    /* margin-right: 8px;  */
+    --unity-image-tint-color: var(--app-color-primary);
+    width: 18px;
+    height: 18px;
+    align-self: center;
+}
+
+#MenuBar_HelpButton {
+    
+}
+
+#MenuBar_HelpButton:hover {
+ 
+}
+
+#MenuBar_HelpButton:hover .menu-bar-button__icon {
+}
+
+#MenuBar_HamburgerButton {
+}
+#MenuBar_HamburgerButton:hover {
+}
+
+#MenuBar_ViewModeGroup {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    margin: 0px;
+    margin-right: 10px;
+    border-radius: 16px;
+    padding: 0px;
+    background-color: var(--app-color-quaternary);
+}
+
+
+.menu-bar__viewModeGroupButton {
+    margin: 0px;
+    align-self: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    padding: 0px;
+    border-radius: 16px;
+    background-color: var(--app-color-primary-contrast);
+}
+
+.menu-bar__viewModeGroupButton:hover {
+    background-color: var(--app-color-primary);
+    border-radius: 8px;
+    --unity-image-tint-color: var(--app-color-primary-contrast);
+}
+
+.menu-bar__viewModeGroupButton:hover .menu-bar-button__icon {
+    --unity-image-tint-color: var(--app-color-primary-contrast);
+}
+
+#MenuBar_ViewModeGroup:active {
+    /* background-color: var(--app-color-primary); */
+    /* border-radius: 8px; */
+}
+
+/*  #MenuBar_ViewModeGroup > .unity-button {
+    margin: 0px;
+    align-self: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    padding: 0px;
+    border-radius: 16px;
+    background-color: var(--app-color-primary-contrast);
+} */
+
+/*  #MenuBar_ViewModeGroup > .unity-button:hover {
+    background-color: var(--app-color-primary);
+} */

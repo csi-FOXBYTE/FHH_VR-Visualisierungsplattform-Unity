@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement picking-mode="Ignore" style="flex-grow: 1; min-height: 373px;">
+        <ui:VisualElement enabled="true" style="background-color: rgba(70, 70, 70, 0.95); padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; justify-content: space-around; align-content: stretch; flex-direction: row; align-items: stretch;">
+            <ui:SliderInt value="1" high-value="30" low-value="1" show-input-field="true" fill="false" name="SliderInt" label="Day" />
+            <ui:SliderInt value="1" high-value="12" low-value="1" show-input-field="true" fill="false" name="SliderInt" label="Month" />
+            <ui:IntegerField label="Year" value="2025" max-length="4" password="false" keyboard-type="NumbersAndPunctuation" auto-correction="true" style="flex-shrink: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

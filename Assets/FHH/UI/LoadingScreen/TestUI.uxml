@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="background-color: rgb(82, 82, 82); align-items: center; align-self: center; align-content: center; justify-content: center; -unity-background-scale-mode: stretch-to-fill; flex-grow: 1; width: 100%; height: 100%;">
+        <ui:ProgressBar value="22" low-value="0" picking-mode="Ignore" name="LoadingProgressBar" style="height: 32px; align-self: center; width: 30%; transition-duration: 500ms; transition-timing-function: ease-in-out-cubic; margin-top: 32px; margin-right: 32px; margin-bottom: 32px; margin-left: 32px;" />
+        <ui:Slider label="Slider" value="42" high-value="100" fill="false" style="width: 80%; margin-top: 21px; margin-bottom: 26px;" />
+        <ui:DropdownField label="Dropdown" style="width: 80%; margin-bottom: 30px;" />
+        <ui:RadioButtonGroup label="Radio Button Group" choices="1,2,3" style="width: 80%; margin-bottom: 38px;" />
+        <ui:Button text="Button" style="width: 100px; height: 32px; cursor: url(&quot;project://database/Assets/FHH/AppResources/Icons/XRCursor.png?fileID=2800000&amp;guid=ad3420ae2d8bdcc40a4b75dc3997f6fa&amp;type=3#XRCursor&quot;);" />
+    </ui:VisualElement>
+</ui:UXML>

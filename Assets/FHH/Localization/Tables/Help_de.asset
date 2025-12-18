@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Help_de
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 9866c1dc43af0564a920a875c1a73cac, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 19469418496
+    m_Localized: Steuerung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22501900288
+    m_Localized: Generell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24783601664
+    m_Localized: "Position zur\xFCcksetzen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26595540992
+    m_Localized: "Flug- Fu\xDFg\xE4ngermodus"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28160016384
+    m_Localized: UI Darstellung zwischen VR und Desktop wechseln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36879974400
+    m_Localized: Plattform anzeigen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39732101120
+    m_Localized: Schnelldrehung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42303209472
+    m_Localized: Vignette anzeigen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258792210432
+    m_Localized: UI zu Kamera holen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 263364001792
+    m_Localized: Teleport
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264915894272
+    m_Localized: UI Selektion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 265574400000
+    m_Localized: Drehung und Flug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267386339328
+    m_Localized: Desktop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267944181760
+    m_Localized: Bewegung / Flug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268556550144
+    m_Localized: Kamera Drehung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270729199616
+    m_Localized: "Teleport (halten f\xFCr zielen)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34623438848
+    m_Localized: VR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 422739165184
+    m_Localized: Linker Controller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 423393476608
+    m_Localized: Rechter Controller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9990747701248
+    m_Localized: Rechter Controller-Stick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9991896940544
+    m_Localized: Rechte Maustaste (halten)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9993021014016
+    m_Localized: Strg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12308813146734592
+    m_Localized: Mittlere Maustaste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12308866032713728
+    m_Localized: Attribute anzeigen
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,94 @@
+
+.tb-root {
+    align-self: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    display: flex;
+    /* flex-grow: 1; */
+    flex-grow: 1;
+    flex-shrink: 0; 
+    height: 100%;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.tb-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 12px;
+    align-self: center;
+}
+
+/* Circle icon button */
+.tb-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: var(--app-color-tertiary);
+    border-width: 0px;
+    margin-top: 12px;
+    -unity-text-align: middle-center;
+    color: var(--app-color-text);
+    opacity: 1;
+    padding: 0;
+    justify-content: center;
+}
+
+.tb-btn:hover {
+    border-radius: 10px;
+}
+
+.tb-icon {
+    align-self: center;
+    /* width: 100%;
+    height: 100%; */
+    width: 18px;
+    height: 18px;
+    /* background-size: 50% 50%; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    -unity-background-image-tint-color: var(--app-color-primary);
+}
+
+.tb-btn--toggled {
+    background-color: var(--app-color-primary);
+    color: var(--app-color-primary-contrast);
+}
+.tb-btn--toggled .tb-icon {
+    -unity-background-image-tint-color: var(--app-color-primary-contrast);
+}
+
+.tb-btn--untoggled {}
+
+/* Bottom persistent Tools button (bigger) */
+.tb-tools {
+    align-self: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 19px;
+    background-color: var(--app-color-primary);
+    border-width: 0px;
+    -unity-text-align: middle-center;
+    opacity: 1;
+    padding:0;
+}
+.tb-tools .tb-icon {
+    /* background-size: 50% 50%; */
+    width: 18px;
+    height: 18px;
+    -unity-background-image-tint-color: var(--app-color-primary-contrast);
+}
+
+.tb-tools:hover {
+    border-radius: 12px;
+}
+
+.tb-btn:disabled {
+    opacity: 0.45;
+}
+
+.tb-tools--open   {}
+.tb-tools--closed {}

@@ -1,0 +1,45 @@
+/* Root of the little user widget area */
+.user-root {
+    /* justify-content: flex-end; 
+    width: 100%; */
+    flex-direction: row;
+    align-items: flex-start;
+    /* margin-top:20px; */
+}
+
+/* Red rounded button with icon + label inline */
+.user-button {
+    background-color: var(--app-color-secondary);
+    color: var(--app-color-primary-contrast);
+    border-radius: var(--app-radius);
+    padding-left: var(--app-pad);
+    padding-right: var(--app-pad);
+    padding-top: var(--app-pad-sm);
+    padding-bottom: var(--app-pad-sm);
+    min-height: 28px;
+    align-self: flex-end;
+    min-width: 135px;
+    justify-content: space-between;
+    /* -unity-text-align: middle-right; */
+}
+
+.user-button:hover {
+    background-color: var(--app-color-tertiary); 
+    color: var(--app-color-text);
+    border-radius: 8px;
+}
+
+.user-button__icon {
+    margin-right: 8px; 
+}
+
+.user-button:hover .user-button__icon {
+    --unity-image-tint-color: var(--app-color-secondary);
+}
+
+/* 
+.user-button > .unity-button__text,
+.user-button > .unity-text-element {
+  white-space: nowrap;
+  overflow: visible;
+} */

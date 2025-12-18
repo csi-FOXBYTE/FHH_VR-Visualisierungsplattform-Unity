@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Notifications Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: Notifications
+  m_TableCollectionNameGuidString: cfd171a64584580469ec89a82907109f
+  m_Entries:
+  - m_Id: 12104220672
+    m_Key: Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14771798016
+    m_Key: Warning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17036722176
+    m_Key: Error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19180011520
+    m_Key: LoginSuccessful
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21151334400
+    m_Key: LoginFailed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23395287040
+    m_Key: LogoutSuccessful
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265946624
+    m_Key: LogoutFailed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28432646144
+    m_Key: ActionFailed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 675315957760
+    m_Key: GuidedModeOn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16618822022184960
+    m_Key: GuidedModeOff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21377992986443776
+    m_Key: NewVersion
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 291832617402368089
+  references:
+    version: 2
+    RefIds:
+    - rid: 291832617402368089
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1760121601371

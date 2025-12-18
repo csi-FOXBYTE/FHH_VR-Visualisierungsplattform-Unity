@@ -1,0 +1,86 @@
+.sun-window {
+    display: flex;
+    flex-direction: column;
+    /* padding-left: var(--app-pad);
+    padding-right: var(--app-pad);
+    padding-top: var(--app-pad);
+    padding-bottom: var(--app-pad); */
+    padding: 20px;
+    border-radius: var(--app-radius);
+    background-color: var(--app-color-tertiary);
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.1);
+    min-width: 320px;
+    max-width: 380px;
+}
+
+.sun-title {
+    -unity-font-style: bold;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.sun-section {
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+.sun-label {
+    margin-bottom: 2px;
+    -unity-font-style: bold;
+}
+
+.sun-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sun-slider {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.sun-year-field {
+    width: 80px;
+}
+
+.unity-integer-field__input {
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.sun-value-label {
+    -unity-text-align: middle-right;
+}
+
+.sun-tooltip-label {
+    margin-top: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: var(--app-radius);
+    background-color: var(--app-color-quaternary);
+    font-size: 12px;
+}
+
+.sun-studies-group {
+    margin-top: 4px;
+}
+
+.unity-base-slider__tracker {
+    border-width: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+}
+
+.unity-base-slider__dragger {
+    border-width: 0px;    
+    background-color: rgba(140, 140, 140, 1);
+    border-radius: 3px;
+}
+
+.unity-text-element--inner-input-field-component {
+    -unity-text-align: middle-center;
+}

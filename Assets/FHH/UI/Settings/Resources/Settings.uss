@@ -1,0 +1,136 @@
+
+.settings-root {
+    padding-left: var(--app-pad);
+    padding-right: var(--app-pad);
+    padding-top: 0px;
+    padding-bottom: 24px;
+    width: 100%;
+}
+
+.settings-scroll {
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 100%;
+}
+
+.settings-section {
+    margin: 0;
+    margin-bottom: 20px; 
+    margin-right: 40px;
+    flex-grow:1;
+    flex-shrink:0;
+}
+
+.settings-header {
+    -unity-font-style: bold;
+    font-size: 16px;
+    margin: 0px;
+    margin-bottom: 0px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0.2,0.2,0.2,0.5);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding-bottom: 5px;
+}
+
+#Settings_ControlHeader {
+    margin-top: 20px;
+}
+
+.settings-row {
+    flex-grow:1;
+    flex-shrink:0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.settings-label {
+    margin-right: 12px;
+    min-width: 220px;
+}
+
+.settings-dropdown {
+    min-width: 260px;
+}
+
+.settings-dropdown .unity-base-popup-field__input {
+    background-color: var(--app-color-menu-item-bright);
+}
+
+.settings-dropdown:hover .unity-base-popup-field__input {
+    background-color: var(--app-color-menu-item-bright-hover);
+}
+
+.settings-subtitle {
+   font-size: 14px;
+   margin-top: 10px;
+   margin-bottom: 6px;
+   color: var(--app-color-primary);
+   -unity-font-style: bold;
+}
+
+.settings-mode-row {
+    margin-top: 6px;
+}
+
+.settings-toggle {
+    margin-right: 12px;
+}
+
+#Settings_ModeToggle .unity-label {
+    margin-left: 4px;
+}
+
+.settings-hint {
+    opacity: 0.8;
+}
+
+.settings-block {
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+.settings-field-label {
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+.settings-slider-row {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.settings-slider-row > Label {
+    width: 80px;
+}
+
+.settings-slider {
+    flex-grow: 1;
+    min-width: 240px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.settings-disclaimer-button
+{
+    background-color: var(--app-color-primary);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    border-width: 0px;
+    max-width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.settings-disclaimer-button:hover
+{
+    background-color: var(--app-color-secondary);
+    /* color: var(--app-color-primary); */
+    border-radius: 4px;
+}

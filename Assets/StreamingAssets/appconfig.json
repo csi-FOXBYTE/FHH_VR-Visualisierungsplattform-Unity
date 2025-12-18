@@ -1,0 +1,112 @@
+{
+  "ServerConfig": {
+    "ApiBaseUrl": "https://fhhvr.foxbyte.de/api/gateway",
+    "ApiVersion": "",
+    "AuthEndpoint": "https://fhhvr.foxbyte.de/api/auth/unity/authorize",
+    "TokenEndpoint": "https://fhhvr.foxbyte.de/api/auth/unity/token",
+    "ClientId": "urn:fhhvr",
+    "RedirectUri": "http://localhost:48152/callback",
+    "RedirectUriForBrowser": "http://localhost:48152/callback",
+    "RevocationEndpoint": "",
+    "RefreshEndpoint": "https://fhhvr.foxbyte.de/api/auth/unity/refresh",
+    "LogoutEndpoint": "https://fhhvr.foxbyte.de/api/auth/unity/signout",
+    "Scopes": [ "openid", "profile", "email" ],
+    "SseEndpoints": [],
+    "TilesBaseUrl": "https://fhhvrshare.blob.core.windows.net/hamburg/3dtiles",
+    "Endpoints": [
+      {
+        "Name": "BaseLayers",
+        "Path": "/public/baseLayer/list",
+        "Method": "GET",
+        "Parameters": []
+      },
+      {
+        "Name": "BaseLayersRestricted",
+        "Path": "/baseLayer/list",
+        "Method": "GET",
+        "Parameters": []
+      },
+      {
+        "Name": "UserInfo",
+        "Path": "/user/info",
+        "Method": "GET",
+        "Parameters": []
+      },
+      {
+        "Name": "ProjectList",
+        "Path": "/project/list",
+        "Method": "GET",
+        "Parameters": []
+      },
+      {
+        "Name": "ProjectListShared",
+        "Path": "/project/listShared",
+        "Method": "GET",
+        "Parameters": []
+      },
+      {
+        "Name": "Project",
+        "Path": "/project/{id}/unity",
+        "Method": "GET",
+        "Parameters": []
+      },
+      {
+        "Name": "Events",
+        "Path": "/events",
+        "Method": "GET",
+        "Parameters": []
+      },
+      {
+        "Name": "EventStatus",
+        "Path": "/events/{id}/status",
+        "Method": "GET",
+        "Parameters": []
+      },
+      {
+        "Name": "EventHost",
+        "Path": "/events/{id}/host",
+        "Method": "POST",
+        "Parameters": []
+      },
+      {
+        "Name": "EventHeartbeat",
+        "Path": "/events/{id}/heartbeat",
+        "Method": "POST",
+        "Parameters": []
+      },
+      {
+        "Name": "EventEnd",
+        "Path": "/events/{id}/end",
+        "Method": "POST",
+        "Parameters": []
+      },
+      {
+        "Name": "EventRehost",
+        "Path": "/events/{id}/rehost",
+        "Method": "POST",
+        "Parameters": []
+      },
+      {
+        "Name": "PublicStartingPoints",
+        "Path": "/public/visualAxes",
+        "Method": "GET",
+        "Parameters": []
+      },
+      {
+        "Name": "AppVersion",
+        "Path": "/appDownload/link",
+        "Method": "GET",
+        "Parameters": []
+      }
+    ],
+    "Headers": [
+      {
+        "Key": "Accept",
+        "Value": "application/json"
+      }
+    ]
+  },
+  "LoggingConfig": {
+    "LogFileName": "VRVis_log.txt"
+  }
+}

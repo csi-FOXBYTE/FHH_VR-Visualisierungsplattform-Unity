@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Help Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: Help
+  m_TableCollectionNameGuidString: 9866c1dc43af0564a920a875c1a73cac
+  m_Entries:
+  - m_Id: 19469418496
+    m_Key: Help_ControlsTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22501900288
+    m_Key: Help_BothSectionTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24783601664
+    m_Key: Help_Home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26595540992
+    m_Key: Help_MovementMode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28160016384
+    m_Key: Help_UiModeSwitch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30202642432
+    m_Key: New Entry 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32383680512
+    m_Key: New Entry 6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34623438848
+    m_Key: Help_VRSectionTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36879974400
+    m_Key: Help_Platform
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39732101120
+    m_Key: Help_SnapTurn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42303209472
+    m_Key: Help_Vignette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258792210432
+    m_Key: Help_SnapUi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 263364001792
+    m_Key: Help_TeleportVR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264915894272
+    m_Key: Help_UiSelectVR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 265574400000
+    m_Key: Help_TurnFlyVR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266190962688
+    m_Key: New Entry 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266765582336
+    m_Key: New Entry 7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267386339328
+    m_Key: Help_DesktopSectionTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267944181760
+    m_Key: Help_MovementDesktop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268556550144
+    m_Key: Help_CameraRotationDesktop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270729199616
+    m_Key: Help_TeleportDesktop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421187272704
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 422034522112
+    m_Key: New Entry 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 422739165184
+    m_Key: Key_LeftControllerTrigger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 423393476608
+    m_Key: Key_RightControllerTrigger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9990747701248
+    m_Key: Key_RightControllerStick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9991896940544
+    m_Key: Key_RightMouseHold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9993021014016
+    m_Key: Key_Ctrl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12308813146734592
+    m_Key: Key_Attribute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12308866032713728
+    m_Key: Help_AttributeDesktop
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 291832844032147547
+  references:
+    version: 2
+    RefIds:
+    - rid: 291832844032147547
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1760978182170

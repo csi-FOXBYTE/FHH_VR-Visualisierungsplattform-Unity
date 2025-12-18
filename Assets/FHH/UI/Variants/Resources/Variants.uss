@@ -1,0 +1,70 @@
+/* Root window for the variants card */
+.variants-window {
+    /* layout */
+    display: flex;
+    flex-direction: column;
+
+    /* spacing & size */
+    padding-left: var(--app-pad);
+    padding-right: var(--app-pad);
+    padding-top: var(--app-pad);
+    padding-bottom: var(--app-pad);
+    /* margin-top: 40px; */
+    /* margin-left: 40px; */
+    min-width: 220px;
+    max-width: 260px;
+
+    /* visuals */
+    background-color: var(--app-color-tertiary);
+    border-radius: var(--app-radius);
+    border-width: 2px;
+    border-color: rgba(0,0,0,0.1);
+}
+
+/* Header row with title + icon */
+.variants-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+/* Localized title "Varianten" */
+.variants-title {
+    font-size: 16px;
+    -unity-font-style: bold;
+}
+
+/* Body container for the radio group */
+.variants-body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Radio button group styling */
+.variants-radio-group {
+    margin-top: 4px;
+}
+
+/* Add vertical spacing between the individual radio buttons */
+.variants-radio-group .unity-radio-button {
+    margin-top: 6px;
+}
+
+/* Optional: slightly emphasize the selected radio option via label */
+.variants-radio-group .unity-radio-button__label {
+    -unity-font-style: normal;
+}
+
+.unity-radio-button__text {
+    padding-left: 6px;
+}
+
+.unity-radio-button__checkmark  {
+    background-color: var(--app-color-primary);
+}
+
+.unity-radio-button__checkmark-background {
+    /* border-color: var(--app-color-primary); */
+}

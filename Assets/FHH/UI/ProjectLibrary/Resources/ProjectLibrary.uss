@@ -1,0 +1,138 @@
+/* ProjectLibrary */
+
+/* Root */
+.pl-root {
+    padding-left: var(--app-pad);
+    padding-right: var(--app-pad);
+    padding-top: 0px;
+    padding-bottom: var(--app-pad);
+}
+
+/* Tabs */
+.pl-tabs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: var(--app-pad);
+}
+.pl-tab { /* simulate horizontal gap */
+    margin-right: var(--app-pad);
+    border-width: 0px;
+    background-color: var(--app-color-menu-item-bright);
+}
+
+.pl-tab:hover {
+    background-color: var(--app-color-menu-item-bright-hover);
+    border-radius: 8px;
+}
+
+/* Grid (responsive via wrapping) */
+.pl-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+/* Card */
+.pl-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    min-height: 180px;
+    padding: var(--app-pad);
+    border-radius: var(--app-radius);
+    border-width: 0px;
+    background-color: var(--app-color-quaternary);
+    border-left-color: var(--app-color-border);
+    border-right-color: var(--app-color-border);
+    border-top-color: var(--app-color-border);
+    border-bottom-color: var(--app-color-border);
+
+    /* simulate gap between cards */
+    margin-right: var(--app-pad);
+    margin-bottom: var(--app-pad);
+}
+
+/* Card content */
+.pl-card-title {
+    -unity-font-style: bold;
+    margin-bottom: 6px;
+}
+.pl-card-desc {
+    flex-grow: 1;
+    opacity: 0.9;
+}
+
+/* Actions (simulate spacing with margins on children) */
+.pl-card-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: var(--app-pad);
+}
+.pl-card-actions > .btn {
+    margin-right: var(--app-pad-sm);
+}
+
+/* "Laden" button icon */
+.pl-btn-load {
+    display: flex;
+    min-width: 100px;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--app-color-primary);
+    color: var(--app-color-primary-contrast);
+}
+
+.pl-btn-load:hover {
+    border-radius: 8px;
+}
+
+.btn-download {
+    background-color: var(--app-color-primary-contrast);
+    color: var(--app-color-text);
+    width: 140px;
+}
+
+.btn-download:hover {
+    border-radius: 8px;
+    background-color: var(--app-color-menu-item-bright-hover);
+}
+
+.pl-btn-load > .pl-icon {
+    width: 14px;
+    height: 14px;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+/* ScrollView should grow and be allowed to shrink inside a flex column parent */
+.pl-scroll {
+    flex-grow: 1;
+    min-height: 0;  /* crucial so ScrollView can actually shrink and scroll */
+    padding-bottom: var(--app-pad);
+}
+
+/* Ensure grid spans the scroll content width */
+.pl-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 100%;
+}
+
+ .btn-danger
+ {
+     background-color: var(--app-color-secondary);
+     color: var(--app-color-quaternary);
+     justify-content: center;
+ }
+
+
+.btn.icon-only .unity-text-element {
+    display: none;
+    
+}

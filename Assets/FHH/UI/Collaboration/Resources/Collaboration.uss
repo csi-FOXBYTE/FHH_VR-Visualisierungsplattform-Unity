@@ -1,0 +1,116 @@
+
+.collab-root {
+    padding-left: var(--app-pad);
+    padding-right: var(--app-pad);
+}
+
+.collab-header {
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.collab-title {
+    -unity-font-style: bold;
+    font-size: 20px;
+    color: var(--app-color-text);
+}
+
+.collab-scroll {
+    flex-grow: 1;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.collab-empty {
+    opacity: 0.8;
+    margin-top: 12px;
+}
+
+.collab-card {
+    background-color: var(--app-color-tertiary);
+    border-color: rgba(0,0,0,0.08);
+    border-width: 1px;
+    border-top-left-radius: var(--app-radius);
+    border-top-right-radius: var(--app-radius);
+    border-bottom-left-radius: var(--app-radius);
+    border-bottom-right-radius: var(--app-radius);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+}
+
+.collab-meta {
+    margin-bottom: 6px;
+    justify-content: space-between;
+}
+
+.collab-meta-text {
+    -unity-font-style: normal;
+    font-size: 14px;
+}
+
+.collab-title2 {
+    -unity-font-style: bold;
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+.collab-project {
+    opacity: 0.9;
+    margin-bottom: 8px;
+}
+
+.collab-cta {
+    justify-content: flex-end;
+}
+
+.collab-startwrap {
+    padding-top: 6px;
+    padding-bottom: 2px;
+    justify-content: flex-end;
+}
+
+.collab-start {
+    /* min-height: 28px; */
+    min-width: 150px;
+    margin-right: 6px;  /* spacing before arrow */
+    align-items: center;
+    background-color: var(--app-color-menu-item-bright);
+    color: var(--app-color-text);
+    flex-direction: row;
+    border-radius: 4px;
+}
+
+.collab-start:hover {
+    border-radius: 8px;
+    background-color: var(--app-color-primary);
+    color: var(--app-color-primary-contrast);
+}
+
+.collab-icon16 {
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    flex-shrink: 0;
+    -unity-background-image-tint-color: var(--app-color-text);
+    
+}
+
+.collab-icon-arrow {
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    flex-shrink: 0;
+    -unity-background-image-tint-color: var(--app-color-text);
+}
+
+ .collab-start:hover .collab-icon-arrow {
+    -unity-background-image-tint-color: var(--app-color-primary-contrast);
+ }

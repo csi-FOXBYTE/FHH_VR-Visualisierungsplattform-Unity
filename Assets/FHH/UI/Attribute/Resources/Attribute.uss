@@ -1,0 +1,106 @@
+.attribute-root {
+    /* Card-like container */
+    background-color: var(--app-color-tertiary);
+    border-radius: var(--app-radius);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+
+    max-width: 480px;
+    flex-grow: 1;
+}
+
+/* Title at the top ("Attribute") */
+.attribute-title {
+    -unity-font-style: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Scroll area containing all attribute rows */
+.attribute-scroll {
+    flex-grow: 1;
+    max-height: 600px;
+}
+
+/* Each key/value block */
+.attribute-row {
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+/* Row with key label + horizontal line */
+.attribute-label-row {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.attribute-key-label {
+    font-size: 14px;
+    color: var(--app-color-text);
+    -unity-font-style: bold;
+}
+
+/* Horizontal line extending from key label */
+.attribute-key-underline {
+    flex-grow: 1;
+    height: 1px;
+    margin-left: 8px;
+    margin-right: 20px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* Value field (TextField) */
+.attribute-value-field {
+    border-radius: var(--app-radius);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-color: rgba(0,0,0,0.1);
+
+    padding-left: var(--app-pad);
+    padding-right: var(--app-pad);
+    padding-top: var(--app-pad-sm);
+    padding-bottom: var(--app-pad-sm);
+
+    background-color: var(--app-color-quaternary);
+    margin-right: 20px;
+    /* margin-bottom: 10px; */
+}
+
+.attribute-close-button 
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+
+    background-image: resource("Icons/close");
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: var(--app-color-quaternary);
+    -unity-background-image-tint-color: var(--app-color-text);
+}
+
+.attribute-close-button:hover
+{
+    background-color: var(--app-color-primary);
+    -unity-background-image-tint-color: var(--app-color-primary-contrast);
+}

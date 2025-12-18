@@ -1,0 +1,176 @@
+
+#TopicsRoot {
+    padding-left: var(--app-pad);
+    padding-right: var(--app-pad);
+ }
+
+/* Bar with the two tabs */
+#TopicsBar {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+}
+
+#TopicsBasis, #TopicsMore {
+}
+
+topics-bar-Btn 
+{
+    height: 32px;
+    margin-right: 10px;
+    color: var(--app-color-text);
+    background-color: var(--app-color-menu-background);
+    border-radius: var(--app-radius);
+}
+
+topics-bar-Btn:hover
+{
+    background-color: var(--app-color-menu-item-hover);
+    color: var(--app-color-primary-contrast);
+}
+
+.topics-tab--active {
+    background-color: var(--app-color-primary);
+    color: var(--app-color-primary-contrast);
+}
+
+/* Section headers */
+.section-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.section-title {
+    -unity-font-style: bold;
+    font-size: 16px;
+}
+
+/* Lists */
+#TopicsDownload, #TopicsAvailable {
+    display: flex;
+    flex-direction: column;
+}
+
+#ItemToggle 
+{
+    align-self: center;
+}
+
+/* ListView item “card” */
+.topic-item {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.topic-item:hover 
+{
+    background-color: rgba(0,0,0,0);
+}
+
+.topic-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 250px;
+    max-width: 250px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.topic-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    width: 100%;
+}
+
+.topic-title {
+    margin-left: 10px;
+    margin-right: 50px;
+    -unity-font-style: bold;
+}
+.topic-size,  {
+    margin: 0px;
+    margin-left: 10px; 
+    min-width: 64px;
+}
+
+.topic-date
+{
+    margin: 0px;
+    margin-left: 10px; 
+    min-width: 80px;
+}
+
+.icon-btn {
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    padding: 0;
+    border-radius: 4px;
+    background-color: var(--app-color-menu-background);
+    justify-content: flex-start;
+}
+
+.icon-btn:hover {
+    /* background-color: var(--app-color-menu-item-bright-hover); */
+    background-color: var(--app-color-menu-item-hover);
+    color: var(--app-color-primary-contrast);
+}
+
+/* little circle info icon look */
+.info-wrap {
+    width: 16px;
+    height: 16px;
+    border-radius: 14px;
+    background-color: var(--app-color-menu-background);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+    align-self: center;
+    --unity-image-tint-color: var(--app-text-color);
+}
+
+#ItemInfo 
+{
+    -unity-background-image-tint-color: rgba(0,0,0,0.9);
+}
+
+/* Progress during download */
+.item-progress {
+    min-width: 135px;
+    height: auto;
+}
+
+#ItemAction
+{
+    margin: 0px;
+    /* margin-left: 10px; */
+    left: 20px;
+    min-width: 135px;
+}
+
+#ItemDeleteIcon
+{
+    /* left: -4px; */
+    margin-left: 4px;
+    width: 16px;
+    height: 16px;
+    align-self: center;
+    -unity-background-image-tint-color: rgba(0,0,0,0.9);
+}
+
+#ItemDownloadIcon
+{
+    margin-left: 4px;
+    width: 16px;
+    height: 16px;
+    align-self: center;
+    -unity-background-image-tint-color: rgba(0,0,0,0.9);
+}

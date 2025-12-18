@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Help_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 9866c1dc43af0564a920a875c1a73cac, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 19469418496
+    m_Localized: Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22501900288
+    m_Localized: General
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24783601664
+    m_Localized: Reset position
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26595540992
+    m_Localized: Fly / Walk mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28160016384
+    m_Localized: Toggle VR and Desktop UI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36879974400
+    m_Localized: Show platform
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39732101120
+    m_Localized: Snap turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42303209472
+    m_Localized: Show Vignette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258792210432
+    m_Localized: Snap UI to camera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 263364001792
+    m_Localized: Teleport
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264915894272
+    m_Localized: UI selection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 265574400000
+    m_Localized: Turn and Fly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267386339328
+    m_Localized: Desktop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267944181760
+    m_Localized: Movement / Fly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268556550144
+    m_Localized: Camera rotation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270729199616
+    m_Localized: Teleport (hold to aim)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34623438848
+    m_Localized: VR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 422739165184
+    m_Localized: Left controller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 423393476608
+    m_Localized: Right controller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9990747701248
+    m_Localized: Right controller stick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9991896940544
+    m_Localized: Right mouse button (hold)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9993021014016
+    m_Localized: Ctrl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12308813146734592
+    m_Localized: Middle mouse click
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12308866032713728
+    m_Localized: Show attributes
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

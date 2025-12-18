@@ -1,0 +1,71 @@
+/* Container keeps column layout and allows the ScrollView to take remaining space */
+.help-root {
+    display: flex;
+    flex-direction: column;
+    padding-left: var(--app-pad);
+    padding-right: var(--app-pad);
+    padding-top: var(--app-pad);
+    padding-bottom: var(--app-pad);
+    border-radius: var(--app-radius);
+    /* allow internal scrolling area to size correctly within region bounds */
+    max-height: 100%;
+}
+
+/* Title remains fixed above the scrollable content */
+.help-title {
+    -unity-font-style: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: var(--app-color-text);
+}
+
+/* Scroll container that grows to fill remaining vertical space */
+.help-scroll {
+    flex-grow: 1;  /* take remaining space below the title */
+    flex-shrink: 1;
+    /* no explicit height so it derives from parent; parent must have a height or max-height */
+    /* overflow managed by ScrollView */
+    padding-bottom: 4px; 
+}
+
+/* Section headings */
+.help-section-title {
+    -unity-font-style: bold;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    color: var(--app-color-text);
+}
+
+.help-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 20px;
+    margin-bottom: 4px;
+}
+
+/* Key badge */
+.help-key {
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 6px;
+    background-color: var(--app-color-primary-contrast);
+    color: var(--app-color-text);
+    -unity-font-style: bold;
+    margin-right: 8px;
+    min-width: 40px;
+}
+
+
+.help-desc {}
+
+/* Subtle separators between sections */
+.help-separator {
+    height: 1px;
+    background-color: var(--app-color-border);
+    opacity: 0.25;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
