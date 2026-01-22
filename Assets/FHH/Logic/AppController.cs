@@ -4,6 +4,7 @@ using FHH.Logic.Components.HmdPresenceMonitor;
 using FHH.Logic.Models;
 using FHH.UI;
 using FHH.UI.Disclaimer;
+using FHH.UI.Example;
 using FHH.UI.MainMenu;
 using FHH.UI.ToolBar;
 using FHH.UI.User;
@@ -295,6 +296,8 @@ namespace FHH.Logic
             await CreateToolBarAsync();
             
             CreateDisclaimerAsync().Forget();
+
+            //CreateExampleAsync().Forget();
         }
 
         private async UniTask CreateMenuBarAsync()
@@ -406,6 +409,20 @@ namespace FHH.Logic
 
             cameraData.renderPostProcessing = !userSettings.PerformanceMode;
             mainCamera.farClipPlane = userSettings.PerformanceMode ? 2000 : 3000;
+        }
+
+
+        // Example
+        private async UniTask CreateExampleAsync()
+        {
+            var options = new WindowOptions()
+            {
+                Region = UIProjectContext.UIRegion.Content1,
+                StyleSheet = Resources.Load<StyleSheet>("Example")
+            };
+            
+            var uiManager = ServiceLocator.GetService<UIManager>();
+            uiManager.ShowWindowAsync<ExamplePresenter, ExampleView, ExampleModel>(model: null, options).Forget();
         }
     }
 }
