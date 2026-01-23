@@ -190,7 +190,7 @@ namespace FHH.UI.Settings
         private void SetMaximumTilesError()
         {
             var userSettings = ServiceLocator.GetService<ConfigurationService>().LoadUserSettings<UserSettings>();
-            float maxScreenError = userSettings.PerformanceMode ? 30f : 20f;
+            float maxScreenError = userSettings.PerformanceMode ? 30f : 8f;
             CesiumTilesetUtilities.SetMaximumScreenSpaceErrorOnAllTilesets(maxScreenError);
         }
 

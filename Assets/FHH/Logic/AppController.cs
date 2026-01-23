@@ -251,7 +251,7 @@ namespace FHH.Logic
         private void OnTilesLoaded()
         {
             var userSettings = ServiceLocator.GetService<ConfigurationService>().LoadUserSettings<UserSettings>();
-            float maxScreenError = userSettings.PerformanceMode ? 30f : 20f;
+            float maxScreenError = userSettings.PerformanceMode ? 30f : 8f;
             CesiumTilesetUtilities.SetMaximumScreenSpaceErrorOnAllTilesets(maxScreenError);
             _tilesLoadingProgressProvider.TilesLoaded -= OnTilesLoaded;
         }
